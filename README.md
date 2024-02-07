@@ -1,28 +1,38 @@
-# HCLogger
+# 📝 HCLogger
 
-This logger bot records chat messages from [hack.chat](https://hack.chat/) to a `chatlog.md` file. It's a simple Python script that uses the hack.chat WebSocket API to join a channel and capture chat messages.
+HCLogger is a Python script designed to log chat messages from [hack.chat](https://hack.chat/) into a `chatlog.md` file. Leveraging the hack.chat WebSocket API, it seamlessly captures chat interactions.
 
-## Features
+## ✨ Features
 
-- Records chat messages to `chatlog.txt` file.
-- Customizable configuration for nickname, channel, and password.
+- **Logging**: Records chat messages to a `chatlog.md` file.
+- **Customization**: Easily configure your nickname, channel, and password.
 
-## Setup
+## 🛠️ Setup
 
 1. **Clone the Repository**: 
    ```bash
    git clone https://github.com/Muusy-Inc/HCLogger.git
    ```
-## Install Dependecies
+
+## 🚀 Installation
+
+Install dependencies using pip:
+
    ```bash
    pip install websocket-client
    ```
-## Configs
-Set your desired nickname (nick) and the channel to join (channel_to_join).
-Optionally, set a password (password) if required.
-## Logging
-All chat messages are logged to the chatlog.md file located in the same directory as the logger script.
 
-## Spread the Word
-If you find this logger bot useful, consider starring the repository and sharing it with others who might benefit from it!
+## ⚙️ Configuration
 
+Customize your settings by adjusting:
+- `nick`: Your desired nickname.
+- `channel_to_join`: The channel to monitor.
+- `password` (optional): Set if required for access.
+
+## 📝 Logging
+
+All chat messages are captured in the `chatlog.md` file, conveniently stored in the script's directory.
+
+## 🌟 Spread the Word
+
+If you find HCLogger helpful, consider starring the repository and sharing it with others!
