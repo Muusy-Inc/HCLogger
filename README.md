@@ -1,4 +1,4 @@
-# HACKCHAT LOGGER
+# HCLogger
 
 This logger bot records chat messages from [hack.chat](https://hack.chat/) to a `chatlog.md` file. It's a simple Python script that uses the hack.chat WebSocket API to join a channel and capture chat messages.
 
